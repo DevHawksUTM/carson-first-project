@@ -1,6 +1,7 @@
 #include <conio.h>
 #include <iostream>
 #include <windows.h>
+using namespace std;
 
 //specifying and declaring specific global game variables.
 
@@ -139,7 +140,7 @@ void UpdateGame()
 }
 
 //This function sets the game difficulty. 
-int setDifficulty()
+int SetDifficulty()
 {
     int dfc, choice;
     cout << "\nSET DIFFICULTY\n1: Easy\n2: Medium\n3: Hard "
